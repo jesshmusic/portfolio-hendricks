@@ -15,7 +15,6 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <main className="p-10">
-      <Nav />
       <div className="mt-10 max-w-3xl mx-auto text-[var(--foreground)]">
         <h1 className="text-3xl font-bold">{project.title}</h1>
         <p className="text-[var(--muted)] mt-2">{project.subtitle}</p>
