@@ -50,20 +50,20 @@ export default async function ProjectPage({ params }: Props) {
               GitHub Repo
             </a>
           )}
-          {project.techStack?.length > 0 && (
-            <div className="mt-6 space-y-2">
-              <h3 className="text-lg font-semibold">Tech Stack</h3>
-              <ul className="flex flex-wrap gap-4">
-                {project.techStack.map((tech: string) => (
-                  <li key={tech} className="flex items-center gap-2">
-                    {techIcons[tech]}
-                    <span className="text-sm text-[var(--muted)]">{techTitles[tech]}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
         </div>
+        {project.techStack?.length > 0 && (
+          <div className="mt-6 space-y-2">
+            <h3 className="text-lg font-semibold">Tech Stack</h3>
+            <ul className="flex flex-wrap gap-4">
+              {project.techStack.map((tech: string) => (
+                <li key={tech} className="flex items-center gap-2">
+                  {techIcons[tech]}
+                  <span className="text-sm text-[var(--muted)]">{techTitles[tech]}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </main>
   );

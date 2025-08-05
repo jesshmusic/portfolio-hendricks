@@ -15,7 +15,7 @@ export default function Nav() {
   const pathname = usePathname();
 
   return (
-    <header className="relative h-[100px] w-full overflow-hidden border-b border-[var(--border)]">
+    <header className="relative h-[100px] w-full overflow-hidden border-b border-[var(--border)] min-h-[100px]">
       <Image
         src="/header.jpg"
         alt="Header background"

@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
     <body className={`antialiased min-h-screen flex flex-col ${mainFont.variable} ${firaCode.variable}`}>
       <Nav />
-      <main className="flex-grow">{children}</main>
+      <main>{children}</main>
       <Footer />
     </body>
     </html>

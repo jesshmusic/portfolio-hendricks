@@ -11,7 +11,7 @@ import {
 } from 'react-icons/si';
 import { TbBrandReactNative } from 'react-icons/tb';
 
-export const techIcons: Record<string, JSX.Element> = {
+export const techIcons: Record<string, React.ReactNode> = {
   react: <FaReact size={30} title="ReactJS" color="#61DBFB" />,
   nodejs: <FaNode size={30} title="NodeJS" color="#68A063" />,
   nextjs: <SiNextdotjs size={30} title="Next.js" color="black" />,
