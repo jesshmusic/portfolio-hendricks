@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Jess Hendricks Portfolio",
     images: [
       {
-        url: "/favicon-256x256.png",
+        url: "/logos/logo.png",
         width: 256,
         height: 256,
         alt: "Jess Hendricks Portfolio",
